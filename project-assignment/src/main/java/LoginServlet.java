@@ -1,10 +1,10 @@
 import java.io.IOException;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jarakata.servlet.RequestDispatcher;
+import jarakata.servlet.ServletException;
+import jarakata.servlet.annotation.WebServlet;
+import jarakata.servlet.http.HttpServlet;
+import jarakata.servlet.http.HttpServletRequest;
+import jarakata.servlet.http.HttpServletResponse;
 
 @WebServlet("/LoginServlet")  // URL pattern to map the servlet
 public class LoginServlet extends HttpServlet {
